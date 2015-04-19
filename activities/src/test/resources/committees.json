@@ -1,0 +1,498 @@
+{
+  "1995-01": [],
+  "1995-02": [
+    "Apache HTTP Server"
+  ],
+  "1995-03": [],
+  "1995-04": [],
+  "1995-05": [],
+  "1995-06": [],
+  "1995-07": [],
+  "1995-08": [],
+  "1995-09": [],
+  "1995-10": [],
+  "1995-11": [],
+  "1995-12": [],
+  "1996-01": [],
+  "1996-02": [],
+  "1996-03": [],
+  "1996-04": [],
+  "1996-05": [],
+  "1996-06": [],
+  "1996-07": [],
+  "1996-08": [],
+  "1996-09": [],
+  "1996-10": [],
+  "1996-11": [],
+  "1996-12": [],
+  "1997-01": [],
+  "1997-02": [],
+  "1997-03": [],
+  "1997-04": [],
+  "1997-05": [],
+  "1997-06": [],
+  "1997-07": [],
+  "1997-08": [],
+  "1997-09": [],
+  "1997-10": [],
+  "1997-11": [],
+  "1997-12": [],
+  "1998-01": [],
+  "1998-02": [],
+  "1998-03": [],
+  "1998-04": [],
+  "1998-05": [],
+  "1998-06": [],
+  "1998-07": [],
+  "1998-08": [],
+  "1998-09": [],
+  "1998-10": [],
+  "1998-11": [],
+  "1998-12": [],
+  "1999-01": [],
+  "1999-02": [],
+  "1999-03": [],
+  "1999-04": [],
+  "1999-05": [],
+  "1999-06": [],
+  "1999-07": [],
+  "1999-08": [],
+  "1999-09": [],
+  "1999-10": [],
+  "1999-11": [],
+  "1999-12": [],
+  "2000-01": [],
+  "2000-02": [],
+  "2000-03": [
+    "Apache mod_perl"
+  ],
+  "2000-04": [],
+  "2000-05": [],
+  "2000-06": [],
+  "2000-07": [
+    "Apache Tcl"
+  ],
+  "2000-08": [],
+  "2000-09": [],
+  "2000-10": [],
+  "2000-11": [],
+  "2000-12": [
+    "Apache Portable Runtime"
+  ],
+  "2001-01": [],
+  "2001-02": [],
+  "2001-03": [],
+  "2001-04": [],
+  "2001-05": [],
+  "2001-06": [],
+  "2001-07": [],
+  "2001-08": [],
+  "2001-09": [],
+  "2001-10": [],
+  "2001-11": [],
+  "2001-12": [],
+  "2002-01": [],
+  "2002-02": [],
+  "2002-03": [],
+  "2002-04": [],
+  "2002-05": [],
+  "2002-06": [],
+  "2002-07": [
+    "Apache DB"
+  ],
+  "2002-08": [],
+  "2002-09": [],
+  "2002-10": [
+    "Apache Incubator"
+  ],
+  "2002-11": [
+    "Apache Ant"
+  ],
+  "2002-12": [],
+  "2003-01": [
+    "Apache Cocoon",
+    "Apache James",
+    "Apache Web Services"
+  ],
+  "2003-02": [],
+  "2003-03": [
+    "Apache Maven"
+  ],
+  "2003-04": [],
+  "2003-05": [],
+  "2003-06": [],
+  "2003-07": [],
+  "2003-08": [],
+  "2003-09": [],
+  "2003-10": [],
+  "2003-11": [],
+  "2003-12": [
+    "Apache Logging"
+  ],
+  "2004-01": [],
+  "2004-02": [
+    "Apache Gump",
+    "Apache Portals"
+  ],
+  "2004-03": [
+    "Apache Struts"
+  ],
+  "2004-04": [],
+  "2004-05": [
+    "Apache Forrest",
+    "Apache Geronimo"
+  ],
+  "2004-06": [
+    "Apache SpamAssassin"
+  ],
+  "2004-07": [],
+  "2004-08": [],
+  "2004-09": [
+    "Apache Lenya"
+  ],
+  "2004-10": [
+    "Apache Xalan",
+    "Apache XML Graphics"
+  ],
+  "2004-11": [],
+  "2004-12": [],
+  "2005-01": [
+    "Apache Lucene"
+  ],
+  "2005-02": [
+    "Apache Directory",
+    "Apache MyFaces",
+    "Apache Xerces"
+  ],
+  "2005-03": [],
+  "2005-04": [],
+  "2005-05": [
+    "Apache Tomcat"
+  ],
+  "2005-06": [],
+  "2005-07": [],
+  "2005-08": [],
+  "2005-09": [],
+  "2005-10": [],
+  "2005-11": [],
+  "2005-12": [],
+  "2006-01": [],
+  "2006-02": [
+    "Apache Tapestry"
+  ],
+  "2006-03": [
+    "Apache Jackrabbit"
+  ],
+  "2006-04": [],
+  "2006-05": [],
+  "2006-06": [
+    "Apache Santuario"
+  ],
+  "2006-07": [],
+  "2006-08": [],
+  "2006-09": [],
+  "2006-10": [
+    "Apache MINA",
+    "Apache Velocity"
+  ],
+  "2006-11": [
+    "Apache Labs"
+  ],
+  "2006-12": [
+    "Apache Cayenne",
+    "Apache OFBiz",
+    "Apache Tiles"
+  ],
+  "2007-01": [
+    "Apache ActiveMQ"
+  ],
+  "2007-02": [
+    "Apache Roller"
+  ],
+  "2007-03": [
+    "Apache Felix"
+  ],
+  "2007-04": [],
+  "2007-05": [
+    "Apache OpenJPA",
+    "Apache POI",
+    "Apache TomEE",
+    "Apache Turbine"
+  ],
+  "2007-06": [
+    "Apache Commons",
+    "Apache Wicket"
+  ],
+  "2007-07": [
+    "Apache ODE"
+  ],
+  "2007-08": [],
+  "2007-09": [
+    "Apache ServiceMix"
+  ],
+  "2007-10": [],
+  "2007-11": [
+    "Apache HttpComponents"
+  ],
+  "2007-12": [
+    "Apache Synapse"
+  ],
+  "2008-01": [
+    "Apache Hadoop"
+  ],
+  "2008-02": [
+    "Apache Continuum"
+  ],
+  "2008-03": [
+    "Apache Archiva"
+  ],
+  "2008-04": [
+    "Apache CXF"
+  ],
+  "2008-05": [
+    "Apache Tuscany"
+  ],
+  "2008-06": [],
+  "2008-07": [],
+  "2008-08": [],
+  "2008-09": [],
+  "2008-10": [],
+  "2008-11": [
+    "Apache Abdera",
+    "Apache Attic",
+    "Apache Buildr",
+    "Apache CouchDB",
+    "Apache Qpid"
+  ],
+  "2008-12": [
+    "Apache Camel"
+  ],
+  "2009-01": [],
+  "2009-02": [],
+  "2009-03": [],
+  "2009-04": [],
+  "2009-05": [],
+  "2009-06": [
+    "Apache Sling"
+  ],
+  "2009-07": [],
+  "2009-08": [],
+  "2009-09": [],
+  "2009-10": [
+    "Apache PDFBox"
+  ],
+  "2009-11": [
+    "Apache Community Development",
+    "Apache Community Development"
+  ],
+  "2009-12": [
+    "Apache Axis",
+    "Apache OpenWebBeans",
+    "Apache Pivot"
+  ],
+  "2010-01": [
+    "Apache Shindig"
+  ],
+  "2010-02": [
+    "Apache Cassandra",
+    "Apache Subversion"
+  ],
+  "2010-03": [
+    "Apache UIMA"
+  ],
+  "2010-04": [
+    "Apache Avro",
+    "Apache HBase",
+    "Apache Mahout",
+    "Apache Nutch",
+    "Apache Tika",
+    "Apache Traffic Server"
+  ],
+  "2010-05": [],
+  "2010-06": [
+    "Apache Karaf"
+  ],
+  "2010-07": [],
+  "2010-08": [
+    "Apache jUDDI"
+  ],
+  "2010-09": [
+    "Apache Hive",
+    "Apache Pig",
+    "Apache Shiro"
+  ],
+  "2010-10": [
+    "Apache Thrift"
+  ],
+  "2010-11": [
+    "Apache OODT",
+    "Apache ZooKeeper"
+  ],
+  "2010-12": [
+    "Apache Aries"
+  ],
+  "2011-01": [
+    "Apache River"
+  ],
+  "2011-02": [
+    "Apache Chemistry"
+  ],
+  "2011-03": [],
+  "2011-04": [],
+  "2011-05": [
+    "Apache Libcloud"
+  ],
+  "2011-06": [],
+  "2011-07": [],
+  "2011-08": [
+    "Apache Whirr"
+  ],
+  "2011-09": [],
+  "2011-10": [
+    "Apache Deltacloud",
+    "Apache JMeter"
+  ],
+  "2011-11": [],
+  "2011-12": [
+    "Apache ACE"
+  ],
+  "2012-01": [
+    "Apache Empire-db",
+    "Apache Gora"
+  ],
+  "2012-02": [
+    "Apache BVal",
+    "Apache OpenNLP"
+  ],
+  "2012-03": [
+    "Apache Accumulo",
+    "Apache Lucy",
+    "Apache Rave",
+    "Apache Sqoop"
+  ],
+  "2012-04": [
+    "Apache Creadur",
+    "Apache Jena"
+  ],
+  "2012-05": [
+    "Apache Giraph",
+    "Apache Hama",
+    "Apache ManifoldCF",
+    "Apache MRUnit"
+  ],
+  "2012-06": [
+    "Apache Flume",
+    "Apache VCL"
+  ],
+  "2012-07": [
+    "Apache Steve"
+  ],
+  "2012-08": [
+    "Apache Any23",
+    "Apache DirectMemory",
+    "Apache Lucene.Net",
+    "Apache Oozie"
+  ],
+  "2012-09": [
+    "Apache Airavata",
+    "Apache Bigtop",
+    "Apache SIS",
+    "Apache Stanbol"
+  ],
+  "2012-10": [
+    "Apache Cordova",
+    "Apache Isis",
+    "Apache OpenOffice"
+  ],
+  "2012-11": [
+    "Apache Kafka",
+    "Apache Syncope",
+    "Apache Wookie"
+  ],
+  "2012-12": [
+    "Apache Flex",
+    "Apache Wink",
+    "Apache Flex"
+  ],
+  "2013-01": [
+    "Apache Etch",
+    "Apache Oltu",
+    "Apache OpenMeetings"
+  ],
+  "2013-02": [
+    "Apache Clerezza",
+    "Apache Crunch"
+  ],
+  "2013-03": [
+    "Apache Bloodhound",
+    "Apache CloudStack",
+    "Apache cTAKES"
+  ],
+  "2013-04": [
+    "Apache DeltaSpike",
+    "Apache Onami"
+  ],
+  "2013-05": [],
+  "2013-06": [
+    "Apache Mesos"
+  ],
+  "2013-07": [
+    "Apache JSPWiki"
+  ],
+  "2013-08": [],
+  "2013-09": [
+    "Apache Curator"
+  ],
+  "2013-10": [
+    "Apache Chukwa",
+    "Apache jclouds"
+  ],
+  "2013-11": [
+    "Apache Ambari",
+    "Apache Marmotta"
+  ],
+  "2013-12": [
+    "Apache Helix"
+  ],
+  "2014-01": [],
+  "2014-02": [
+    "Apache Knox",
+    "Apache Open Climate Workbench",
+    "Apache Spark"
+  ],
+  "2014-03": [
+    "Apache Allura",
+    "Apache Olingo",
+    "Apache Tajo"
+  ],
+  "2014-04": [],
+  "2014-05": [
+    "Apache Phoenix",
+    "Apache Stratos"
+  ],
+  "2014-06": [],
+  "2014-07": [
+    "Apache Celix",
+    "Apache Tez",
+    "Apache VXQuery",
+    "Apache Tez"
+  ],
+  "2014-08": [],
+  "2014-09": [
+    "Apache Storm"
+  ],
+  "2014-10": [],
+  "2014-11": [
+    "Apache BookKeeper",
+    "Apache DeviceMap",
+    "Apache Drill",
+    "Apache MetaModel"
+  ],
+  "2014-12": [
+    "Apache Falcon",
+    "Apache Flink"
+  ],
+  "2015-01": [
+    "Apache Samza"
+  ]
+}

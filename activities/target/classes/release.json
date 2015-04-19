@@ -1,0 +1,19 @@
+{
+  "$license": [
+    "http://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "objectType": "verb",
+  "id": "verbs/release",
+  "value": "release",
+  "objects": [
+    {
+      "actor": "project",
+      "object": "release",
+      "target": "*",
+      "targetRequired": false,
+      "templates": {
+        "*": "{actor.displayName} released {object.displayName}"
+      }
+    }
+  ]
+}

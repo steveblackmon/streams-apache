@@ -1,0 +1,314 @@
+{
+  "asterixdb": {
+    "description": "Apache AsterixDB is a scalable big data management system (BDMS) that provides storage, management, and query capabilities for large collections of semi-structured data.",
+    "homepage": "http://asterixdb.incubator.apache.org/",
+    "name": "Apache AsterixDB (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2015-02"
+  },
+  "batchee": {
+    "description": "BatchEE projects aims to provide a JBatch implementation (aka JSR352)\nand a set of useful extensions for this specification.",
+    "homepage": "http://batchee.incubator.apache.org/",
+    "name": "Apache BatchEE (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2013-10"
+  },
+  "blur": {
+    "description": "Blur is a search platform capable of searching massive amounts of data\n            in a cloud computing environment. ",
+    "homepage": "http://blur.incubator.apache.org/",
+    "name": "Apache Blur (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2012-07"
+  },
+  "brooklyn": {
+    "description": "Brooklyn is a framework for modelling, monitoring, and managing applications \n        through autonomic blueprints.",
+    "homepage": "http://brooklyn.incubator.apache.org/",
+    "name": "Apache Brooklyn (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-05"
+  },
+  "calcite": {
+    "description": "Calcite is a highly customizable engine for parsing and planning queries on data in a wide variety of formats. It allows database-like access, and in particular a SQL interface and advanced query optimization, for data not residing in a traditional database. (Renamed from Optiq on 2014-09-30.)",
+    "homepage": "http://calcite.incubator.apache.org/",
+    "name": "Apache Calcite (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-05"
+  },
+  "commonsrdf": {
+    "description": "Commons RDF is a set of interfaces and classes for RDF 1.1 concepts and behaviours.  The commons-rdf-api module defines interfaces and testing harness.  The commons-rdf-simple module provides a basic reference implementation to exercise the test harness and clarify API contracts.",
+    "homepage": "http://commonsrdf.incubator.apache.org/",
+    "name": "Apache CommonsRDF (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2015-03"
+  },
+  "corinthia": {
+    "description": "Corinthia is a toolkit/application for converting between and editing common office file formats, with an initial focus on word processing. It is designed to cater for multiple classes of platforms - desktop, web, and mobile - and relies heavily on web technologies such as HTML, CSS, and JavaScript for representing and manipulating documents. The toolkit is small, portable, and flexible, with minimal dependencies. The target audience is developers wishing to include office viewing, conversion, and editing functionality into their applications.",
+    "homepage": "http://corinthia.incubator.apache.org/",
+    "name": "Apache Corinthia (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-12"
+  },
+  "datafu": {
+    "description": "DataFu provides a collection of Hadoop MapReduce jobs and functions in higher level languages based on it to perform data analysis. It provides functions for common statistics tasks (e.g. quantiles, sampling), PageRank, stream sessionization, and set and bag operations. DataFu also provides Hadoop jobs for incremental data processing in MapReduce.",
+    "homepage": "http://datafu.incubator.apache.org/",
+    "name": "Apache DataFu (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-01"
+  },
+  "droids": {
+    "description": "Droids aims to be an intelligent standalone robot framework that allows to create and extend existing droids (robots).",
+    "homepage": "http://droids.incubator.apache.org/",
+    "name": "Apache Droids (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2008-10"
+  },
+  "groovy": {
+    "description": "Groovy is an object-oriented programming language for the Java platform. It is a language with features similar to those of Python, Ruby, Java, Perl, and Smalltalk.",
+    "homepage": "http://groovy.incubator.apache.org/",
+    "name": "Apache Groovy (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2015-03"
+  },
+  "htrace": {
+    "description": "HTrace is a tracing framework intended for use with distributed systems written in java.",
+    "homepage": "http://htrace.incubator.apache.org/",
+    "name": "Apache HTrace (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-11"
+  },
+  "ignite": {
+    "description": "A unified In-Memory Data Fabric providing high-performance, distributed in-memory data management software layer between various data sources and user applications.",
+    "homepage": "http://ignite.incubator.apache.org/",
+    "name": "Apache Ignite (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-10"
+  },
+  "johnzon": {
+    "description": "Implementation of JSR-353 JavaTM API for JSON Processing (Renamed from Fleece)",
+    "homepage": "http://johnzon.incubator.apache.org/",
+    "name": "Apache Johnzon (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-06"
+  },
+  "kalumet": {
+    "description": "Kalumet a complete environment manager and deployer including J2EE environments (application servers, applications, etc), softwares, and resources.",
+    "homepage": "http://kalumet.incubator.apache.org/",
+    "name": "Apache Kalumet (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2011-09"
+  },
+  "kylin": {
+    "description": "Kylin is a distributed and scalable OLAP engine built on Hadoop to support extremely large datasets.",
+    "homepage": "http://kylin.incubator.apache.org/",
+    "name": "Apache Kylin (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-11"
+  },
+  "lens": {
+    "description": "Lens is a platform that enables multi-dimensional queries in a unified way over datasets stored in multiple warehouses. Lens integrates Apache Hive with other data warehouses by tiering them together to form logical data cubes.",
+    "homepage": "http://lens.incubator.apache.org/",
+    "name": "Apache Lens (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-10"
+  },
+  "log4cxx2": {
+    "description": "Logging for C++",
+    "homepage": "http://log4cxx2.incubator.apache.org/",
+    "name": "Apache log4cxx2 (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2013-12"
+  },
+  "mrql": {
+    "description": "MRQL is a query processing and optimization system for large-scale, distributed data analysis, built on top of Apache Hadoop, Hama, Spark, and Flink.",
+    "homepage": "http://mrql.incubator.apache.org/",
+    "name": "Apache MRQL (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2013-03"
+  },
+  "myriad": {
+    "description": "Myriad enables co-existence of Apache Hadoop YARN and Apache Mesos together on the same cluster and allows dynamic resource allocations across both Hadoop and other applications running on the same physical data center infrastructure.",
+    "homepage": "http://myriad.incubator.apache.org/",
+    "name": "Apache Myriad (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2015-03"
+  },
+  "nifi": {
+    "description": "NiFi is a dataflow system based on the concepts of flow-based programming.",
+    "homepage": "http://nifi.incubator.apache.org/",
+    "name": "Apache NiFi (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-11"
+  },
+  "odftoolkit": {
+    "description": "Java modules that allow programmatic creation, scanning and manipulation of OpenDocument Format (ISO/IEC 26300 == ODF) documents",
+    "homepage": "http://odftoolkit.incubator.apache.org/",
+    "name": "Apache ODF Toolkit (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2011-08"
+  },
+  "openaz": {
+    "description": "Tools and libraries for developing Attribute-based Access Control (ABAC) Systems in a variety of languages.",
+    "homepage": "http://openaz.incubator.apache.org/",
+    "name": "Apache OpenAz (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2015-01"
+  },
+  "parquet": {
+    "description": "Parquet is a columnar storage format for Hadoop.",
+    "homepage": "http://parquet.incubator.apache.org/",
+    "name": "Apache Parquet (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-05"
+  },
+  "ranger": {
+    "description": "The Ranger project is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform.",
+    "homepage": "http://ranger.incubator.apache.org/",
+    "name": "Apache Ranger (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-07"
+  },
+  "reef": {
+    "description": "REEF (Retainable Evaluator Execution Framework) is a scale-out computing fabric that eases the development of Big Data applications on top of resource managers such as Apache YARN and Mesos.",
+    "homepage": "http://reef.incubator.apache.org/",
+    "name": "Apache REEF (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-08"
+  },
+  "ripple": {
+    "description": "Ripple is a browser based mobile phone emulator designed to aid in the development of HTML5 based mobile applications.  Ripple is a cross platform and cross runtime testing/debugging tool. It currently supports such runtimes as Cordova, WebWorks aand the Mobile Web.",
+    "homepage": "http://ripple.incubator.apache.org/",
+    "name": "Apache Ripple (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2012-10"
+  },
+  "samoa": {
+    "description": "SAMOA provides a collection of distributed streaming algorithms for the most common data mining and machine learning tasks such as classification, clustering, and regression, as well as programming abstractions to develop new algorithms that run on top of distributed stream processing engines (DSPEs). It features a pluggable architecture that allows it to run on several DSPEs such as Apache Storm, Apache S4, and Apache Samza. ",
+    "homepage": "http://samoa.incubator.apache.org/",
+    "name": "Apache SAMOA (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-12"
+  },
+  "sentry": {
+    "description": "\n          Sentry is a highly modular system for providing fine grained role\n          based authorization to both data and metadata stored on an Apache Hadoop cluster.\n        ",
+    "homepage": "http://sentry.incubator.apache.org/",
+    "name": "Apache Sentry (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2013-08"
+  },
+  "singa": {
+    "description": "Singa is a distributed deep learning platform.",
+    "homepage": "http://singa.incubator.apache.org/",
+    "name": "Apache Singa (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2015-03"
+  },
+  "sirona": {
+    "description": "Monitoring Solution.",
+    "homepage": "http://sirona.incubator.apache.org/",
+    "name": "Apache Sirona (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2013-10"
+  },
+  "slider": {
+    "description": "Slider is a collection of tools and technologies to package, deploy, and manage long running applications on Apache Hadoop YARN clusters.",
+    "homepage": "http://slider.incubator.apache.org/",
+    "name": "Apache Slider (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-04"
+  },
+  "streams": {
+    "description": "Apache Streams is a lightweight server for ActivityStreams.",
+    "homepage": "http://streams.incubator.apache.org/",
+    "name": "Apache Streams (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2012-11"
+  },
+  "tamaya": {
+    "description": "Tamaya is a highly flexible configuration solution based on an modular, extensible and injectable key/value based design, which should provide a minimal but extendible modern and functional API leveraging SE, ME and EE environments.",
+    "homepage": "http://tamaya.incubator.apache.org/",
+    "name": "Apache Tamaya (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-11"
+  },
+  "taverna": {
+    "description": "Taverna is a domain-independent suite of tools used to design and execute data-driven workflows.",
+    "homepage": "http://taverna.incubator.apache.org/",
+    "name": "Apache Taverna (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-10"
+  },
+  "tinkerpop": {
+    "description": "TinkerPop is a graph computing framework written in Java",
+    "homepage": "http://tinkerpop.incubator.apache.org/",
+    "name": "Apache TinkerPop (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2015-01"
+  },
+  "twill": {
+    "description": "Twill is an abstraction over Apache Hadoop YARN that reduces the complexity of developing distributed applications, allowing developers to focus more on their business logic",
+    "homepage": "http://twill.incubator.apache.org/",
+    "name": "Apache Twill (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2013-11"
+  },
+  "usergrid": {
+    "description": "Usergrid is Backend-as-a-Service (BaaS) composed of an integrated database (Cassandra), application layer and client tier with SDKs for developers.",
+    "homepage": "http://usergrid.incubator.apache.org/",
+    "name": "Apache Usergrid (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2013-10"
+  },
+  "wave": {
+    "description": "A wave is a hosted, live, concurrent data structure for rich communication. It can be used like email, chat, or a document.",
+    "homepage": "http://wave.incubator.apache.org/",
+    "name": "Apache Wave (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2010-12"
+  },
+  "zeppelin": {
+    "description": "A collaborative data analytics and visualization tool for distributed, general-purpose data processing systems such as Apache Spark, Apache Flink, etc.",
+    "homepage": "http://zeppelin.incubator.apache.org/",
+    "name": "Apache Zeppelin (Incubating)",
+    "pmc": "incubator",
+    "podling": true,
+    "started": "2014-12"
+  }
+}

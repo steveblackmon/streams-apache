@@ -1,0 +1,860 @@
+{
+  "abdera": {
+    "chair": {
+      "Person": {
+        "name": "Ant Elder"
+      }
+    },
+    "homepage": "http://abdera.apache.org/",
+    "name": "Apache Abdera"
+  },
+  "accumulo": {
+    "chair": {
+      "Person": {
+        "name": "Billie Rinaldi"
+      }
+    },
+    "homepage": "http://accumulo.apache.org/",
+    "name": "Apache Accumulo"
+  },
+  "ace": {
+    "homepage": "http://ace.apache.org/",
+    "name": "Apache Ace"
+  },
+  "activemq": {
+    "chair": {
+      "Person": {
+        "name": "Hiram Chirino"
+      }
+    },
+    "homepage": "http://activemq.apache.org/",
+    "name": "Apache ActiveMQ"
+  },
+  "airavata": {
+    "homepage": "http://airavata.apache.org/",
+    "name": "Apache Airavata"
+  },
+  "allura": {
+    "homepage": "http://allura.apache.org/",
+    "name": "Apache Allura"
+  },
+  "ambari": {
+    "chair": {
+      "Person": {
+        "name": "Yusaku Sako"
+      }
+    },
+    "homepage": "http://ambari.apache.org/",
+    "name": "Apache Ambari"
+  },
+  "ant": {
+    "chair": {
+      "Person": {
+        "name": "Conor MacNeill"
+      }
+    },
+    "homepage": "http://ant.apache.org/",
+    "name": "Apache Ant"
+  },
+  "any23": {
+    "homepage": "http://any23.apache.org/",
+    "name": "Apache Any23"
+  },
+  "apr": {
+    "chair": {
+      "Person": {
+        "name": "Garrett Rooney"
+      }
+    },
+    "charter": "The mission of the Apache Portable Runtime (APR) project is \nto create and maintain software libraries that provide a predictable and \nconsistent interface to underlying platform-specific implementations. The \nprimary goal is to provide an API to which software developers may code \nand be assured of predictable if not identical behaviour regardless of the \nplatform on which their software is built, relieving them of the need to \ncode special-case conditions to work around or take advantage of \nplatform-specific deficiencies or features.",
+    "homepage": "http://apr.apache.org/",
+    "member": {
+      "Person": {
+        "name": "Cliff Woolley"
+      }
+    },
+    "name": "Apache Portable Runtime"
+  },
+  "archiva": {
+    "homepage": "http://archiva.apache.org/",
+    "name": "Apache Archiva"
+  },
+  "aries": {
+    "charter": "Apache Aries software is\n       a set of pluggable Java components enabling an enterprise \n       OSGi application programming model.\n    ",
+    "homepage": "http://aries.apache.org/",
+    "name": "Apache Aries"
+  },
+  "attic": {
+    "homepage": "http://attic.apache.org/",
+    "name": "Apache Attic"
+  },
+  "avro": {
+    "homepage": "http://avro.apache.org/",
+    "name": "Apache Avro"
+  },
+  "axis": {
+    "chair": {
+      "Person": {
+        "name": "Glen Daniels"
+      }
+    },
+    "charter": "The Apache Axis Project is\n       responsible for the creation and maintenance of software\n       related to the Axis Web Services frameworks and subsidiary \n       components.",
+    "homepage": "http://axis.apache.org/",
+    "member": {
+      "Person": {
+        "name": "Sanjiva Weerawarana"
+      }
+    },
+    "name": "Apache Axis"
+  },
+  "bigtop": {
+    "chair": {
+      "Person": {
+        "name": "Roman Shaposhnik"
+      }
+    },
+    "charter": "\n      Bigtop is a project for the development of packaging and tests of the Apache Hadoop ecosystem. \n      The primary goal of Bigtop is to build a community around the packaging and interoperability \n      testing of Hadoop-related projects. This includes testing at various levels (packaging, platform, \n      runtime, upgrade, etc...) developed by a community with a focus on the system as a whole, rather \n      than individual projects. In short we strive to be for Hadoop what Debian is to Linux.\n    ",
+    "homepage": "http://bigtop.apache.org/",
+    "name": "Apache Bigtop"
+  },
+  "bloodhound": {
+    "homepage": "http://bloodhound.apache.org/",
+    "name": "Apache Bloodhound"
+  },
+  "bookkeeper": {
+    "homepage": "http://bookkeeper.apache.org/",
+    "name": "Apache BookKeeper"
+  },
+  "buildr": {
+    "charter": "\n        Apache Buildr software is\n        a build system for Java-based applications, \n        including support for Scala, Groovy and \n        a growing number of JVM languages and tools.\n    ",
+    "homepage": "http://buildr.apache.org/",
+    "name": "Apache Buildr"
+  },
+  "bval": {
+    "homepage": "http://bval.apache.org/",
+    "name": "Apache BVal"
+  },
+  "camel": {
+    "chair": {
+      "Person": {
+        "name": "Hadrian Zbarcea"
+      }
+    },
+    "charter": "\n      The mission of Apache Camel is the creation and maintenance\n      of an open-source integration framework based on known \n      Enterprise Integration Patterns.\n    ",
+    "homepage": "http://camel.apache.org/",
+    "member": {
+      "Person": {
+        "name": "Hadrian Zbarcea"
+      }
+    },
+    "name": "Apache Camel"
+  },
+  "cassandra": {
+    "charter": "\n        Apache Cassandra software is\n        a highly scalable second-generation distributed database.\n    ",
+    "homepage": "http://cassandra.apache.org/",
+    "name": "Apache Cassandra"
+  },
+  "cayenne": {
+    "homepage": "http://cayenne.apache.org/",
+    "name": "Apache Cayenne"
+  },
+  "celix": {
+    "homepage": "http://celix.apache.org/",
+    "name": "Apache Celix"
+  },
+  "chemistry": {
+    "chair": {
+      "Person": {
+        "name": "Florian M\u00fcller"
+      }
+    },
+    "homepage": "http://chemistry.apache.org/",
+    "name": "Apache Chemistry"
+  },
+  "chukwa": {
+    "homepage": "http://chukwa.apache.org/",
+    "name": "Apache Chukwa"
+  },
+  "clerezza": {
+    "homepage": "http://clerezza.apache.org/",
+    "name": "Apache Clerezza"
+  },
+  "climate": {
+    "homepage": "http://climate.apache.org/",
+    "name": "Apache Open Climate Workbench"
+  },
+  "cloudstack": {
+    "homepage": "http://cloudstack.apache.org/",
+    "name": "Apache Cloudstack"
+  },
+  "cocoon": {
+    "homepage": "http://cocoon.apache.org/",
+    "name": "Apache Cocoon"
+  },
+  "comdev": {
+    "homepage": "http://comdev.apache.org/",
+    "name": "Apache Community Development"
+  },
+  "commons": {
+    "homepage": "http://commons.apache.org/",
+    "name": "Apache Commons"
+  },
+  "continuum": {
+    "homepage": "http://continuum.apache.org/",
+    "name": "Apache Continuum"
+  },
+  "couchdb": {
+    "charter": "\n        Apache CouchDB software is\n        a document-oriented database that can be queried and indexed in a MapReduce fashion using JavaScript. \n        CouchDB also offers incremental replication with bi-directional conflict detection and resolution.\n    ",
+    "homepage": "http://couchdb.apache.org/",
+    "name": "Apache CouchDB"
+  },
+  "creadur": {
+    "homepage": "http://creadur.apache.org/",
+    "name": "Apache Creadur"
+  },
+  "crunch": {
+    "homepage": "http://crunch.apache.org/",
+    "name": "Apache Crunch"
+  },
+  "ctakes": {
+    "homepage": "http://ctakes.apache.org/",
+    "name": "Apache cTAKES"
+  },
+  "curator": {
+    "homepage": "http://curator.apache.org/",
+    "name": "Apache Curator"
+  },
+  "cxf": {
+    "homepage": "http://cxf.apache.org/",
+    "name": "Apache CXF"
+  },
+  "db": {
+    "chair": {
+      "Person": {
+        "name": "Jean T. Anderson"
+      }
+    },
+    "charter": "The mission of the Apache DB project is to create and \n    maintain commercial-quality, open-source, database solutions based on \n    software licensed to the Foundation, for distribution at no charge to the \n    public.",
+    "homepage": "http://db.apache.org/",
+    "member": {
+      "Person": {
+        "name": "Rodney Waldhoff"
+      }
+    },
+    "name": "Apache DB"
+  },
+  "deltacloud": {
+    "homepage": "http://deltacloud.apache.org/",
+    "name": "Apache Deltacloud"
+  },
+  "deltaspike": {
+    "homepage": "http://deltaspike.apache.org/",
+    "name": "Apache Deltaspike"
+  },
+  "devicemap": {
+    "homepage": "http://devicemap.apache.org/",
+    "name": "Apache DeviceMap"
+  },
+  "directmemory": {
+    "homepage": "http://directmemory.apache.org/",
+    "name": "Apache Directmemory"
+  },
+  "directory": {
+    "homepage": "http://directory.apache.org/",
+    "name": "Apache Directory"
+  },
+  "drill": {
+    "homepage": "http://drill.apache.org/",
+    "name": "Apache Drill"
+  },
+  "falcon": {
+    "chair": {
+      "Person": {
+        "name": "Srikanth Sundarrajan"
+      }
+    },
+    "charter": "\n        Apache Falcon is a data processing and management solution for Hadoop \n        designed for data motion, coordination of data pipelines, lifecycle \n        management, and data discovery. Falcon enables end consumers to quickly \n        onboard their data and its associated processing and management tasks \n        on Hadoop clusters.\n    ",
+    "name": "Apache Falcon"
+  },
+  "felix": {
+    "homepage": "http://felix.apache.org/",
+    "name": "Apache Felix"
+  },
+  "flex": {
+    "homepage": "http://flex.apache.org",
+    "name": "Apache Flex"
+  },
+  "flink": {
+    "homepage": "http://flink.apache.org/",
+    "name": "Apache Flink"
+  },
+  "flume": {
+    "homepage": "http://flume.apache.org/",
+    "name": "Apache Flume"
+  },
+  "forrest": {
+    "chair": {
+      "Person": {
+        "name": "David Crossley"
+      }
+    },
+    "charter": "\n      The mission of Apache Forrest is the generation of aggregated\n      multi-channel documentation, maintaining a separation of content\n      and presentation.\n    ",
+    "homepage": "http://forrest.apache.org/who.html",
+    "member": {
+      "Person": {
+        "name": "Tim Williams"
+      }
+    },
+    "name": "Apache Forrest"
+  },
+  "geronimo": {
+    "homepage": "http://geronimo.apache.org/",
+    "member": {
+      "Person": {
+        "asf-id": "adc",
+        "name": "Alan D. Cabrera"
+      }
+    },
+    "name": "Apache Geronimo"
+  },
+  "giraph": {
+    "homepage": "http://giraph.apache.org/",
+    "name": "Apache Giraph"
+  },
+  "gora": {
+    "homepage": "http://gora.apache.org/",
+    "name": "Apache Gora"
+  },
+  "gump": {
+    "homepage": "http://gump.apache.org/",
+    "name": "Apache Gump"
+  },
+  "hadoop": {
+    "homepage": "http://hadoop.apache.org/",
+    "name": "Apache Hadoop"
+  },
+  "hama": {
+    "homepage": "http://hama.apache.org/",
+    "name": "Apache Hama"
+  },
+  "hbase": {
+    "homepage": "http://hbase.apache.org/",
+    "name": "Apache HBase"
+  },
+  "helix": {
+    "homepage": "http://helix.apache.org/",
+    "name": "Apache Helix"
+  },
+  "hive": {
+    "homepage": "http://hive.apache.org/",
+    "name": "Apache Hive"
+  },
+  "httpcomponents": {
+    "homepage": "http://hc.apache.org/",
+    "name": "Apache HttpComponents"
+  },
+  "httpd": {
+    "chair": {
+      "Person": {
+        "name": "Roy Fielding"
+      }
+    },
+    "homepage": "http://httpd.apache.org/",
+    "name": "Apache HTTP Server"
+  },
+  "incubator": {
+    "chair": {
+      "Person": {
+        "name": "Noel Bergman"
+      }
+    },
+    "homepage": "http://incubator.apache.org/",
+    "name": "Apache Incubator"
+  },
+  "isis": {
+    "homepage": "http://isis.apache.org/",
+    "name": "Apache Isis"
+  },
+  "jackrabbit": {
+    "homepage": "http://jackrabbit.apache.org/",
+    "name": "Apache Jackrabbit"
+  },
+  "james": {
+    "homepage": "http://james.apache.org/",
+    "name": "Apache James"
+  },
+  "jclouds": {
+    "homepage": "http://jclouds.apache.org/",
+    "name": "Apache Jclouds"
+  },
+  "jena": {
+    "homepage": "http://jena.apache.org/",
+    "name": "Apache Jena"
+  },
+  "jmeter": {
+    "homepage": "http://jmeter.apache.org/",
+    "name": "Apache JMeter"
+  },
+  "jspwiki": {
+    "homepage": "http://jspwiki.apache.org/",
+    "name": "Apache JSPWiki"
+  },
+  "juddi": {
+    "homepage": "http://juddi.apache.org/",
+    "name": "Apache jUDDI"
+  },
+  "kafka": {
+    "homepage": "http://kafka.apache.org/",
+    "name": "Apache Kafka"
+  },
+  "karaf": {
+    "chair": {
+      "Person": {
+        "name": "Guillaume Nodet"
+      }
+    },
+    "charter": "\n\t   The mission of the Apache Karaf project is\n\t   the creation and maintenance of\n       open-source software related to a generic platform providing\n       higher level features and services specifically designed for\n       creating OSGi-based servers for distribution at no charge to\n       the public.\n    ",
+    "homepage": "http://karaf.apache.org/",
+    "name": "Apache Karaf"
+  },
+  "knox": {
+    "homepage": "http://knox.apache.org/",
+    "name": "Apache Knox"
+  },
+  "labs": {
+    "homepage": "http://labs.apache.org/",
+    "name": "Apache Labs"
+  },
+  "lenya": {
+    "homepage": "http://lenya.apache.org/",
+    "name": "Apache Lenya"
+  },
+  "libcloud": {
+    "chair": {
+      "Person": {
+        "name": "Tomaz Muraus"
+      }
+    },
+    "homepage": "http://libcloud.apache.org/",
+    "name": "Apache Libcloud"
+  },
+  "logging": {
+    "chair": {
+      "Person": {
+        "name": "Curt Arnold"
+      }
+    },
+    "charter": "The mission of the Apache Logging Services project is\n    to create and maintain of software for\n    managing the logging of application behavior, and for related\n   software components.",
+    "homepage": "http://logging.apache.org",
+    "name": "Apache Logging Services"
+  },
+  "lucene": {
+    "homepage": "http://lucene.apache.org/",
+    "name": "Apache Lucene"
+  },
+  "lucenenet": {
+    "homepage": "http://lucenenet.apache.org/",
+    "name": "Apache Lucenenet"
+  },
+  "lucy": {
+    "homepage": "http://lucy.apache.org/",
+    "name": "Apache Lucy"
+  },
+  "mahout": {
+    "homepage": "http://mahout.apache.org/",
+    "name": "Apache Mahout"
+  },
+  "manifoldcf": {
+    "homepage": "http://manifoldcf.apache.org",
+    "name": "Apache ManifoldCF"
+  },
+  "marmotta": {
+    "homepage": "http://marmotta.apache.org/",
+    "name": "Apache Marmotta"
+  },
+  "maven": {
+    "homepage": "http://maven.apache.org/",
+    "name": "Apache Maven"
+  },
+  "mesos": {
+    "homepage": "http://mesos.apache.org/",
+    "name": "Apache Mesos"
+  },
+  "metamodel": {
+    "homepage": "http://metamodel.apache.org/",
+    "name": "Apache MetaModel"
+  },
+  "mina": {
+    "homepage": "http://mina.apache.org/",
+    "name": "Apache Mina"
+  },
+  "mrunit": {
+    "chair": {
+      "Person": {
+        "name": "Brock Noland"
+      }
+    },
+    "homepage": "http://mrunit.apache.org/",
+    "name": "Apache MRUnit"
+  },
+  "myfaces": {
+    "homepage": "http://myfaces.apache.org/",
+    "name": "Apache MyFaces"
+  },
+  "nutch": {
+    "homepage": "http://nutch.apache.org/",
+    "name": "Apache Nutch"
+  },
+  "ode": {
+    "homepage": "http://ode.apache.org/",
+    "name": "Apache Ode"
+  },
+  "ofbiz": {
+    "homepage": "http://ofbiz.apache.org/",
+    "name": "Apache OFBiz"
+  },
+  "olingo": {
+    "chair": {
+      "Person": {
+        "name": "Stephan Klevenz"
+      }
+    },
+    "charter": "The Apache Olingo Project be and hereby is\n         responsible for the creation and maintenance of software\n         related to providing an implemention of the OASIS OData \n         (Open Data Protocol) specifications, in server and client \n         form; \n      ",
+    "homepage": "http://olingo.apache.org/",
+    "member": {
+      "person": {
+        "name": "Florian Mueller"
+      }
+    },
+    "name": "Apache Olingo"
+  },
+  "oltu": {
+    "homepage": "http://oltu.apache.org/",
+    "name": "Apache Oltu"
+  },
+  "onami": {
+    "homepage": "http://onami.apache.org/",
+    "name": "Apache Onami"
+  },
+  "oodt": {
+    "homepage": "http://oodt.apache.org/",
+    "name": "Apache OODT: Object Oriented Data Technology"
+  },
+  "oozie": {
+    "homepage": "http://oozie.apache.org/",
+    "name": "Apache Oozie"
+  },
+  "openjpa": {
+    "homepage": "http://openjpa.apache.org/",
+    "name": "Apache OpenJPA"
+  },
+  "openmeetings": {
+    "homepage": "http://openmeetings.apache.org/",
+    "name": "Apache Openmeetings"
+  },
+  "opennlp": {
+    "homepage": "http://opennlp.apache.org/",
+    "name": "Apache OpenNLP"
+  },
+  "openoffice": {
+    "chair": {
+      "Person": {
+        "name": "Andrea Pescetti"
+      }
+    },
+    "homepage": "http://openoffice.apache.org/",
+    "name": "Apache OpenOffice"
+  },
+  "openwebbeans": {
+    "charter": "\n        Apache OpenWebBeans software is\n        an ASL-licensed implementation of the JSR-299 \n        \"Contexts and Dependency Injection for the Java (TM) EE platform\" specification.\n    ",
+    "homepage": "http://openwebbeans.apache.org/",
+    "name": "Apache OpenWebBeans"
+  },
+  "pdfbox": {
+    "homepage": "http://pdfbox.apache.org/",
+    "name": "Apache PDFBox"
+  },
+  "perl": {
+    "homepage": "http://perl.apache.org/",
+    "name": "Apache mod_perl"
+  },
+  "phoenix": {
+    "homepage": "http://phoenix.apache.org/",
+    "name": "Apache Phoenix"
+  },
+  "pig": {
+    "homepage": "http://pig.apache.org/",
+    "name": "Apache Pig"
+  },
+  "pivot": {
+    "homepage": "http://pivot.apache.org/",
+    "name": "Apache Pivot"
+  },
+  "poi": {
+    "homepage": "http://poi.apache.org/",
+    "name": "Apache POI"
+  },
+  "portals": {
+    "homepage": "http://portals.apache.org/",
+    "name": "Apache Portals"
+  },
+  "qpid": {
+    "homepage": "http://qpid.apache.org/",
+    "name": "Apache Qpid"
+  },
+  "rave": {
+    "homepage": "http://rave.apache.org/",
+    "name": "Apache Rave"
+  },
+  "river": {
+    "homepage": "http://river.apache.org/",
+    "name": "Apache River"
+  },
+  "roller": {
+    "homepage": "http://roller.apache.org/",
+    "name": "Apache Roller"
+  },
+  "samza": {
+    "homepage": "http://samza.apache.org/",
+    "name": "Apache Samza"
+  },
+  "santuario": {
+    "homepage": "http://santuario.apache.org/",
+    "name": "Apache Santuario (XML Security)"
+  },
+  "servicemix": {
+    "homepage": "http://servicemix.apache.org/",
+    "name": "Apache ServiceMix"
+  },
+  "shindig": {
+    "charter": "\n        Apache Shindig software is\n        an OpenSocial container and helps you to start hosting OpenSocial apps quickly\n        by providing the code to render gadgets, proxy requests, and handle REST and RPC requests.\n    ",
+    "homepage": "http://shindig.apache.org/",
+    "name": "Apache Shindig"
+  },
+  "shiro": {
+    "homepage": "http://shiro.apache.org/",
+    "name": "Apache Shiro"
+  },
+  "sis": {
+    "chair": {
+      "Person": {
+        "name": "Adam Estrada"
+      }
+    },
+    "homepage": "http://sis.apache.org/team-list.html",
+    "name": "Apache SIS"
+  },
+  "sling": {
+    "homepage": "http://sling.apache.org/",
+    "name": "Apache Sling"
+  },
+  "spamassassin": {
+    "homepage": "http://spamassassin.apache.org/",
+    "name": "Apache SpamAssassin"
+  },
+  "spark": {
+    "homepage": "http://spark.apache.org/",
+    "name": "Apache Spark"
+  },
+  "sqoop": {
+    "homepage": "http://sqoop.apache.org/",
+    "name": "Apache Sqoop"
+  },
+  "stanbol": {
+    "homepage": "http://stanbol.apache.org/",
+    "name": "Apache Stanbol"
+  },
+  "steve": {
+    "homepage": "http://steve.apache.org/",
+    "name": "Apache Steve"
+  },
+  "storm": {
+    "homepage": "http://storm.apache.org/",
+    "name": "Apache Storm"
+  },
+  "stratos": {
+    "homepage": "http://stratos.apache.org/",
+    "name": "Apache Stratos"
+  },
+  "struts": {
+    "homepage": "http://struts.apache.org/",
+    "name": "Apache Struts"
+  },
+  "subversion": {
+    "homepage": "http://subversion.apache.org/",
+    "name": "Apache Subversion"
+  },
+  "synapse": {
+    "homepage": "http://synapse.apache.org/",
+    "name": "Apache Synapse"
+  },
+  "syncope": {
+    "homepage": "http://syncope.apache.org/",
+    "name": "Apache Syncope"
+  },
+  "tajo": {
+    "homepage": "http://tajo.apache.org/",
+    "name": "Apache Tajo"
+  },
+  "tapestry": {
+    "homepage": "http://tapestry.apache.org/",
+    "name": "Apache Tapestry"
+  },
+  "tcl": {
+    "homepage": "http://tcl.apache.org/",
+    "name": "Apache Tcl"
+  },
+  "tez": {
+    "homepage": "http://tez.apache.org/",
+    "name": "Apache Tez"
+  },
+  "thrift": {
+    "homepage": "http://thrift.apache.org/",
+    "name": "Apache Thrift"
+  },
+  "tika": {
+    "homepage": "http://tika.apache.org/",
+    "name": "Apache Tika"
+  },
+  "tiles": {
+    "homepage": "http://tiles.apache.org/",
+    "name": "Apache Tiles"
+  },
+  "tomcat": {
+    "homepage": "http://tomcat.apache.org/",
+    "name": "Apache Tomcat"
+  },
+  "tomee": {
+    "homepage": "http://tomee.apache.org/",
+    "name": "Apache Tomee"
+  },
+  "trafficserver": {
+    "homepage": "http://trafficserver.apache.org/",
+    "name": "Apache Traffic Server"
+  },
+  "turbine": {
+    "homepage": "http://turbine.apache.org/",
+    "name": "Apache Turbine"
+  },
+  "tuscany": {
+    "charter": "\n        Apache Tuscany software\n        simplifies the task of developing SOA solutions by providing a comprehensive infrastructure \n        for SOA development and management that is based on Service Component Architecture (SCA) standard. \n    ",
+    "homepage": "http://tuscany.apache.org/",
+    "name": "Apache Tuscany"
+  },
+  "uima": {
+    "charter": "\n        Apache UIMA (*) software provides frameworks, tools\n        and annotators, facilitating the analysis of unstructured content such as text, audio and video. \n        (*) Unstructured Information Management Architecture.\n    ",
+    "homepage": "http://uima.apache.org/",
+    "name": "Apache UIMA"
+  },
+  "vcl": {
+    "chair": {
+      "Person": {
+        "name": "Andy Kurth"
+      }
+    },
+    "charter": "The mission of the Apache VCL project is to create and\n    maintain of software related to a modular cloud computing platform which\n    dynamically provisions and brokers remote access to compute resources.\n    ",
+    "homepage": "http://vcl.apache.org/",
+    "member": {
+      "Person": {
+        "name": "Josh Thompson"
+      }
+    },
+    "name": "Apache VCL"
+  },
+  "velocity": {
+    "homepage": "http://velocity.apache.org/",
+    "name": "Apache Velocity"
+  },
+  "vxquery": {
+    "chair": {
+      "person": {
+        "name": "Till Westmann"
+      }
+    },
+    "charter": "Creation and maintenance of software\n      related to providing an implementation of a parallel XML\n      Query processor.\n    ",
+    "homepage": "http://vxquery.apache.org/",
+    "member": {
+      "person": {
+        "name": "Cezar Andrei"
+      }
+    },
+    "name": "Apache VXQuery"
+  },
+  "webservices": {
+    "homepage": "http://ws.apache.org/",
+    "name": "Apache Web Services"
+  },
+  "whirr": {
+    "homepage": "http://whirr.apache.org/",
+    "name": "Apache Whirr"
+  },
+  "wicket": {
+    "homepage": "http://wicket.apache.org/",
+    "name": "Apache Wicket"
+  },
+  "wink": {
+    "homepage": "http://wink.apache.org/",
+    "name": "Apache Wink"
+  },
+  "wookie": {
+    "homepage": "http://wookie.apache.org/",
+    "name": "Apache Wookie"
+  },
+  "xalan": {
+    "chair": {
+      "Person": {
+        "name": "Steven J. Hathaway"
+      }
+    },
+    "charter": "Apache Xalan exists to promote the use of XSLT.\n    We view XSLT (Extensible Stylesheet Language Transformations) as\n    a compelling paradigm that transforms XML documents, thereby\n    facilitating the exchange, transformation, and presentation of\n    knowledge. The ability to transform XML documents into usable\n    information has great potential to improve the functionality\n    and use of information systems. We intend to build freely\n    available XSLT processing components in order to engender such\n    improvements.",
+    "homepage": "http://xalan.apache.org/charter.html",
+    "member": {
+      "Person": {
+        "name": "Tim Williams"
+      }
+    },
+    "name": "Apache Xalan"
+  },
+  "xerces": {
+    "chair": {
+      "Person": {
+        "name": "Michael Glavassevich"
+      }
+    },
+    "charter": "Apache Xerces exists to promote the use of XML. \n    We view XML as a compelling paradigm that structures data as \n    information, thereby facilitating the exchange, transformation, \n    and presentation of knowledge. The ability to transform raw data \n    into usable information has great potential to improve the \n    functionality and use of information systems. We intend to build \n    freely available XML parsers and closely related technologies in \n    order to engender such improvements.",
+    "homepage": "http://xerces.apache.org/charter.html",
+    "member": {
+      "Person": {
+        "name": "Jason Stewart"
+      }
+    },
+    "name": "Apache Xerces"
+  },
+  "xmlbeans": {
+    "homepage": "http://xmlbeans.apache.org/",
+    "name": "Apache XML Beans"
+  },
+  "xmlgraphics": {
+    "chair": {
+      "Person": {
+        "name": "Jeremias M\u00e4rki"
+      }
+    },
+    "charter": "Apache XML Graphics exists to promote the use of XML. We view XML as a \ncompelling paradigm that structures data as information, thereby facilitating \nthe exchange, transformation, and presentation of knowledge. The ability to \ntransform raw data into usable information has great potential to improve the \nfunctionality and use of information systems. We intend to build freely \navailable products for the conversion of XML to graphical output and closely \nrelated technologies in order to engender such improvements.",
+    "homepage": "http://xmlgraphics.apache.org/",
+    "member": {
+      "Person": {
+        "name": "J\u00f6rg Pietschmann"
+      }
+    },
+    "name": "Apache XML Graphics"
+  },
+  "zest": {
+    "homepage": "http://zest.apache.org/",
+    "name": "Apache Zest"
+  },
+  "zookeeper": {
+    "homepage": "http://zookeeper.apache.org/",
+    "name": "Apache ZooKeeper"
+  }
+}

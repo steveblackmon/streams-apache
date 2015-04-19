@@ -1,0 +1,19 @@
+{
+  "$license": [
+    "http://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "objectType": "verb",
+  "id": "verbs/member",
+  "value": "member",
+  "objects": [
+    {
+      "actor": "person",
+      "object": "organization",
+      "target": "*",
+      "targetRequired": false,
+      "templates": {
+        "*": "{actor.displayName} is a member of {object.displayName}"
+      }
+    }
+  ]
+}

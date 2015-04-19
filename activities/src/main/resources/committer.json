@@ -1,0 +1,19 @@
+{
+  "$license": [
+    "http://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "objectType": "verb",
+  "id": "verbs/committer",
+  "value": "committer",
+  "objects": [
+    {
+      "actor": "person",
+      "object": "project",
+      "target": "*",
+      "targetRequired": false,
+      "templates": {
+        "*": "{actor.displayName} is a committer on {object.displayName}"
+      }
+    }
+  ]
+}
