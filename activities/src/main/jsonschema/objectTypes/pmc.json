@@ -6,18 +6,14 @@
     ],
     "id": "#",
     "type": "object",
-    "title": "committer",
+    "title": "pmc",
     "extends": {
-        "$ref": "http://streams.incubator.apache.org/site/0.2-incubating-SNAPSHOT/streams-project/streams-pojo/verbs/join.json"
+        "$ref": "http://streams.incubator.apache.org/site/0.2-incubating-SNAPSHOT/streams-project/streams-pojo/objectTypes/organization.json"
     },
     "properties": {
-        "verb": {
+        "objectType": {
             "type": "string",
-            "default": "committer"
-        },
-        "title": {
-            "type": "string",
-            "default": "{actor.displayName} committer for {object.displayName}"
+            "default": "pmc"
         }
     }
 }

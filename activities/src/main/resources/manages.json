@@ -1,0 +1,19 @@
+{
+  "$license": [
+    "http://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "objectType": "verb",
+  "id": "verbs/manages",
+  "value": "manages",
+  "objects": [
+    {
+      "actor": "pmc",
+      "object": "project",
+      "target": "*",
+      "targetRequired": false,
+      "templates": {
+        "*": "{actor.displayName} manages {object.displayName}"
+      }
+    }
+  ]
+}
