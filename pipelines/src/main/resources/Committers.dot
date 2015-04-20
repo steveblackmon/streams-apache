@@ -1,0 +1,12 @@
+digraph g {
+
+  //providers
+  CommittersProvider [label="CommittersProvider"];
+
+  //processors
+  ActivityConverterProcessor [label="ActivityConverterProcessor",shape=box];
+
+  //stream
+  CommittersProvider -> ActivityConverterProcessor [label="ObjectNode"];
+  ActivityConverterProcessor -> GraphPersistWriter [label="Activity"];
+}
