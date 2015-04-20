@@ -1,5 +1,6 @@
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Queues;
@@ -25,6 +26,8 @@ public class PersonProvider implements StreamsProvider {
 
     ObjectMapper mapper;
     InputStream is;
+
+    boolean done = false;
 
     @Override
     public void startStream() {
@@ -59,37 +62,42 @@ public class PersonProvider implements StreamsProvider {
             projectItem = peopleNodeList.next();
 
             Actor person = new Actor();
-            person.setAdditionalProperty("id", projectItem.getKey());
+            person.setId(projectItem.getKey());
+            person.setDisplayName(projectItem.getValue().get("name").textValue());
             person.setAdditionalProperty("screenName", projectItem.getKey());
-            person.setAdditionalProperty("displayName", projectItem.getValue().get("name").textValue());
             person.setAdditionalProperty("member", projectItem.getValue().get("member").booleanValue());
+            person.setObjectType("person");
 
-            for( String project : projectItem.getValue().findValuesAsText("projects")) {
+            ArrayNode projectsArrayNode = (ArrayNode) projectItem.getValue().get("projects");
+            for( Iterator<JsonNode> projectIterator = projectsArrayNode.elements(); projectIterator.hasNext(); ) {
+
+                JsonNode projectIdNode = projectIterator.next();
 
                 Activity activity = new Activity();
                 activity.setActor(person);
 
+                ActivityObject object = new ActivityObject();
                 String projectId = null;
-                if( project.endsWith("-pmc")) {
-                    projectId = StringUtils.stripEnd(project, "-pmc");
+                if( projectIdNode.asText().endsWith("-pmc")) {
+                    projectId = StringUtils.stripEnd(projectIdNode.asText(), "-pmc");
 
-                    ActivityObject object = new ActivityObject();
-                    object.setId(project);
+                    object.setId(projectIdNode.asText());
                     object.setDisplayName(projectId + " PMC");
-
+                    object.setObjectType("pmc");
                     activity.setVerb("member");
 
                 }
                 else {
 
-                    ActivityObject object = new ActivityObject();
-                    object.setId(project);
-                    object.setDisplayName(project);
-
+                    object.setId(projectIdNode.asText());
+                    object.setDisplayName(projectIdNode.asText());
+                    object.setObjectType("project");
                     activity.setVerb("committer");
 
                 }
 
+                activity.setId(person.getId()+":"+activity.getVerb()+":"+object.getId());
+                activity.setObject(object);
                 result.add( new StreamsDatum(activity, projectItem.getKey() ) );
 
             }
@@ -111,7 +119,7 @@ public class PersonProvider implements StreamsProvider {
 
     @Override
     public boolean isRunning() {
-        throw new NotImplementedException();
+        return !done;
     }
 
     @Override
@@ -122,6 +130,6 @@ public class PersonProvider implements StreamsProvider {
 
     @Override
     public void cleanUp() {
-
+        done = true;
     }
 }
