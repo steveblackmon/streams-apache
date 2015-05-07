@@ -8,7 +8,7 @@
     "type": "object",
     "title": "committee",
     "extends": {
-        "$ref": "http://streams.incubator.apache.org/site/0.2-incubating-SNAPSHOT/streams-project/streams-pojo/objectTypes/group.json"
+        "$ref": "http://streams.incubator.apache.org/site/0.3-incubating-SNAPSHOT/streams-project/streams-pojo/objectTypes/group.json"
     },
     "properties": {
         "objectType": {

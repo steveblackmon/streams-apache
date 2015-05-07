@@ -1,0 +1,539 @@
+From dev-return-1-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org  Tue Nov 27 22:53:12 2012
+Return-Path: <dev-return-1-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org>
+X-Original-To: apmail-streams-dev-archive@minotaur.apache.org
+Delivered-To: apmail-streams-dev-archive@minotaur.apache.org
+Received: from mail.apache.org (hermes.apache.org [140.211.11.3])
+	by minotaur.apache.org (Postfix) with SMTP id 4FCB6D2F3
+	for <apmail-streams-dev-archive@minotaur.apache.org>; Tue, 27 Nov 2012 22:53:12 +0000 (UTC)
+Received: (qmail 88784 invoked by uid 500); 27 Nov 2012 22:53:12 -0000
+Delivered-To: apmail-streams-dev-archive@streams.apache.org
+Received: (qmail 88769 invoked by uid 500); 27 Nov 2012 22:53:12 -0000
+Mailing-List: contact dev-help@streams.incubator.apache.org; run by ezmlm
+Precedence: bulk
+List-Help: <mailto:dev-help@streams.incubator.apache.org>
+List-Unsubscribe: <mailto:dev-unsubscribe@streams.incubator.apache.org>
+List-Post: <mailto:dev@streams.incubator.apache.org>
+List-Id: <dev.streams.incubator.apache.org>
+Reply-To: dev@streams.incubator.apache.org
+Delivered-To: mailing list dev@streams.incubator.apache.org
+Received: (qmail 88755 invoked by uid 99); 27 Nov 2012 22:53:12 -0000
+Received: from nike.apache.org (HELO nike.apache.org) (192.87.106.230)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Tue, 27 Nov 2012 22:53:12 +0000
+X-ASF-Spam-Status: No, hits=3.6 required=5.0
+	tests=FSL_HELO_NON_FQDN_1,HELO_LOCALHOST
+X-Spam-Check-By: apache.org
+Received: from [140.211.11.3] (HELO mail.apache.org) (140.211.11.3)
+    by apache.org (qpsmtpd/0.29) with SMTP; Tue, 27 Nov 2012 22:53:10 +0000
+Received: (qmail 87896 invoked by uid 99); 27 Nov 2012 22:52:48 -0000
+Received: from minotaur.apache.org (HELO minotaur.apache.org) (140.211.11.9)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Tue, 27 Nov 2012 22:52:48 +0000
+Received: from localhost (HELO [10.0.4.15]) (127.0.0.1)
+  (smtp-auth username ahart, mechanism plain)
+  by minotaur.apache.org (qpsmtpd/0.29) with ESMTP; Tue, 27 Nov 2012 22:52:48 +0000
+Message-ID: <50B5457C.2080200@apache.org>
+Date: Tue, 27 Nov 2012 14:58:04 -0800
+From: Andrew Hart <ahart@apache.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20120430 Thunderbird/12.0.1
+MIME-Version: 1.0
+To: dev@streams.incubator.apache.org
+Subject: commit announcements
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Checked: Checked by ClamAV on apache.org
+
+Hello world!
+
+I've made a few commits today in the process of getting the scaffolding 
+set up for the website, but have yet to see any notifications from 
+commits@streams.incubator.apache.org. Anyone else subscribed and 
+receiving commit notifications?
+
+-Andrew
+
+From dev-return-2-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org  Tue Nov 27 22:54:22 2012
+Return-Path: <dev-return-2-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org>
+X-Original-To: apmail-streams-dev-archive@minotaur.apache.org
+Delivered-To: apmail-streams-dev-archive@minotaur.apache.org
+Received: from mail.apache.org (hermes.apache.org [140.211.11.3])
+	by minotaur.apache.org (Postfix) with SMTP id 00A07D2F7
+	for <apmail-streams-dev-archive@minotaur.apache.org>; Tue, 27 Nov 2012 22:54:22 +0000 (UTC)
+Received: (qmail 91617 invoked by uid 500); 27 Nov 2012 22:54:21 -0000
+Delivered-To: apmail-streams-dev-archive@streams.apache.org
+Received: (qmail 91603 invoked by uid 500); 27 Nov 2012 22:54:21 -0000
+Mailing-List: contact dev-help@streams.incubator.apache.org; run by ezmlm
+Precedence: bulk
+List-Help: <mailto:dev-help@streams.incubator.apache.org>
+List-Unsubscribe: <mailto:dev-unsubscribe@streams.incubator.apache.org>
+List-Post: <mailto:dev@streams.incubator.apache.org>
+List-Id: <dev.streams.incubator.apache.org>
+Reply-To: dev@streams.incubator.apache.org
+Delivered-To: mailing list dev@streams.incubator.apache.org
+Received: (qmail 91595 invoked by uid 99); 27 Nov 2012 22:54:21 -0000
+Received: from nike.apache.org (HELO nike.apache.org) (192.87.106.230)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Tue, 27 Nov 2012 22:54:21 +0000
+X-ASF-Spam-Status: No, hits=-0.7 required=5.0
+	tests=RCVD_IN_DNSWL_LOW,SPF_PASS
+X-Spam-Check-By: apache.org
+Received-SPF: pass (nike.apache.org: domain of m.ben.franklin@gmail.com designates 209.85.217.175 as permitted sender)
+Received: from [209.85.217.175] (HELO mail-lb0-f175.google.com) (209.85.217.175)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Tue, 27 Nov 2012 22:54:14 +0000
+Received: by mail-lb0-f175.google.com with SMTP id gg13so7364659lbb.34
+        for <dev@streams.incubator.apache.org>; Tue, 27 Nov 2012 14:53:53 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=references:from:mime-version:in-reply-to:date:message-id:subject:to
+         :content-type;
+        bh=9w899PWm+8PApSG3wLOFzAIjHXsCfW/7me6OC0I9sCY=;
+        b=sDx4lkL/WJjwID55LI/WK1Ur5e8I80lkZuh8AMJ6e0GDWwO/mm6IOzUKk+sNb+Pm3A
+         LrcIJ9tpYoSPPsxCbfkionuaiaO/E1AB1LHm0pKaeFF7fDxiJ0wk8GE85qhuA6SsjILU
+         F4JfY5U8a8tVB8MbbrGbL6UZuv5EBZDazy9H3SB/pRpfjuCIdwnfXoSvZ/Me9PmfjXuE
+         AWER1krgWqL4Wn9efnAminD6308UylvxT8vGC7HqWNbXiwYtmV9D+0WKEjLbuqkLES3Y
+         0rmJkIagSAM9WSLY/XG/uPyeX6k9cv/f24mkHCDykO5PL20GYJH+8N+2R8EFaIYIewm4
+         zF/g==
+Received: by 10.112.43.161 with SMTP id x1mr1249544lbl.32.1354056833619; Tue,
+ 27 Nov 2012 14:53:53 -0800 (PST)
+References: <50B5457C.2080200@apache.org>
+From: Matt Franklin <m.ben.franklin@gmail.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <50B5457C.2080200@apache.org>
+Date: Tue, 27 Nov 2012 17:53:52 -0500
+Message-ID: <-8778426617058146078@unknownmsgid>
+Subject: Re: commit announcements
+To: "dev@streams.incubator.apache.org" <dev@streams.incubator.apache.org>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Virus-Checked: Checked by ClamAV on apache.org
+
+They apparently are getting moderated.
+
+Sent from my iPhone
+
+On Nov 27, 2012, at 17:53, Andrew Hart <ahart@apache.org> wrote:
+
+> Hello world!
+>
+> I've made a few commits today in the process of getting the scaffolding set up for the website, but have yet to see any notifications from commits@streams.incubator.apache.org. Anyone else subscribed and receiving commit notifications?
+>
+> -Andrew
+
+From dev-return-3-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org  Tue Nov 27 23:13:33 2012
+Return-Path: <dev-return-3-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org>
+X-Original-To: apmail-streams-dev-archive@minotaur.apache.org
+Delivered-To: apmail-streams-dev-archive@minotaur.apache.org
+Received: from mail.apache.org (hermes.apache.org [140.211.11.3])
+	by minotaur.apache.org (Postfix) with SMTP id 22252D3EA
+	for <apmail-streams-dev-archive@minotaur.apache.org>; Tue, 27 Nov 2012 23:13:33 +0000 (UTC)
+Received: (qmail 54735 invoked by uid 500); 27 Nov 2012 23:13:33 -0000
+Delivered-To: apmail-streams-dev-archive@streams.apache.org
+Received: (qmail 54717 invoked by uid 500); 27 Nov 2012 23:13:33 -0000
+Mailing-List: contact dev-help@streams.incubator.apache.org; run by ezmlm
+Precedence: bulk
+List-Help: <mailto:dev-help@streams.incubator.apache.org>
+List-Unsubscribe: <mailto:dev-unsubscribe@streams.incubator.apache.org>
+List-Post: <mailto:dev@streams.incubator.apache.org>
+List-Id: <dev.streams.incubator.apache.org>
+Reply-To: dev@streams.incubator.apache.org
+Delivered-To: mailing list dev@streams.incubator.apache.org
+Received: (qmail 54709 invoked by uid 99); 27 Nov 2012 23:13:33 -0000
+Received: from athena.apache.org (HELO athena.apache.org) (140.211.11.136)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Tue, 27 Nov 2012 23:13:33 +0000
+X-ASF-Spam-Status: No, hits=1.5 required=5.0
+	tests=HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS
+X-Spam-Check-By: apache.org
+Received-SPF: pass (athena.apache.org: domain of craigmcc@gmail.com designates 209.85.215.47 as permitted sender)
+Received: from [209.85.215.47] (HELO mail-la0-f47.google.com) (209.85.215.47)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Tue, 27 Nov 2012 23:13:27 +0000
+Received: by mail-la0-f47.google.com with SMTP id u2so10135332lag.34
+        for <dev@streams.incubator.apache.org>; Tue, 27 Nov 2012 15:13:05 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:in-reply-to:references:date:message-id
+         :subject:from:to:content-type;
+        bh=BbkuNxQlUYINo30ESOZypwCU1CtrKkSgrNowKbOIuD0=;
+        b=aaPETukuWRtw8Xf+WO9hn5LhikSSHl9HnIyDsutck14YwxoDEOGMaWH46LJrxxZX4h
+         C0PqYUO320dTJTOHbZ69QZaDjI/13kkIKmRQqfgn6tkfCKMgSxhQgB51KrKs75FBoRa4
+         XddKvCTRq3h2KCTplEGpm09yO7pCfZHelh0bMRGUU9kFgnX5CMSyukGr3po+SFNXYpGR
+         e67zv/pm+KciE6UMxqMvkQrwnT5XJP95H2g+LYz6vz0ww+SiX7tvu6Y017zlOjzdSMkj
+         7aHUfgLFBtUmnpRpNKNJEJUmkIzHFerZ+JiQ8Ci1EMCUgJUaXOfi93MoOdrvlZOlxAe1
+         dzfQ==
+MIME-Version: 1.0
+Received: by 10.152.148.40 with SMTP id tp8mr16206229lab.30.1354057985681;
+ Tue, 27 Nov 2012 15:13:05 -0800 (PST)
+Received: by 10.152.13.65 with HTTP; Tue, 27 Nov 2012 15:13:05 -0800 (PST)
+Reply-To: craigmcc@gmail.com
+In-Reply-To: <50B5457C.2080200@apache.org>
+References: <50B5457C.2080200@apache.org>
+Date: Tue, 27 Nov 2012 15:13:05 -0800
+Message-ID: <CANgkmLD2z42rUE1=qkEaERaYy-sPf4-iLZ6P0fBz3e-rOW5jew@mail.gmail.com>
+Subject: Re: commit announcements
+From: Craig McClanahan <craigmcc@gmail.com>
+To: dev@streams.incubator.apache.org
+Content-Type: multipart/alternative; boundary=e89a8f2346653de90504cf8231d8
+X-Virus-Checked: Checked by ClamAV on apache.org
+
+--e89a8f2346653de90504cf8231d8
+Content-Type: text/plain; charset=ISO-8859-1
+
+I've subscribed as well, but haven't seen any commits email yet.
+
+In other news, at least I saw this post to the dev list :-).
+
+Craig
+
+
+On Tue, Nov 27, 2012 at 2:58 PM, Andrew Hart <ahart@apache.org> wrote:
+
+> Hello world!
+>
+> I've made a few commits today in the process of getting the scaffolding
+> set up for the website, but have yet to see any notifications from
+> commits@streams.incubator.**apache.org<commits@streams.incubator.apache.org>.
+> Anyone else subscribed and receiving commit notifications?
+>
+> -Andrew
+>
+
+--e89a8f2346653de90504cf8231d8--
+
+From dev-return-4-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org  Wed Nov 28 00:03:03 2012
+Return-Path: <dev-return-4-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org>
+X-Original-To: apmail-streams-dev-archive@minotaur.apache.org
+Delivered-To: apmail-streams-dev-archive@minotaur.apache.org
+Received: from mail.apache.org (hermes.apache.org [140.211.11.3])
+	by minotaur.apache.org (Postfix) with SMTP id 28093E22D
+	for <apmail-streams-dev-archive@minotaur.apache.org>; Wed, 28 Nov 2012 00:03:03 +0000 (UTC)
+Received: (qmail 96634 invoked by uid 500); 28 Nov 2012 00:03:03 -0000
+Delivered-To: apmail-streams-dev-archive@streams.apache.org
+Received: (qmail 96616 invoked by uid 500); 28 Nov 2012 00:03:03 -0000
+Mailing-List: contact dev-help@streams.incubator.apache.org; run by ezmlm
+Precedence: bulk
+List-Help: <mailto:dev-help@streams.incubator.apache.org>
+List-Unsubscribe: <mailto:dev-unsubscribe@streams.incubator.apache.org>
+List-Post: <mailto:dev@streams.incubator.apache.org>
+List-Id: <dev.streams.incubator.apache.org>
+Reply-To: dev@streams.incubator.apache.org
+Delivered-To: mailing list dev@streams.incubator.apache.org
+Received: (qmail 96604 invoked by uid 99); 28 Nov 2012 00:03:03 -0000
+Received: from nike.apache.org (HELO nike.apache.org) (192.87.106.230)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 00:03:03 +0000
+X-ASF-Spam-Status: No, hits=-1998.2 required=5.0
+	tests=ALL_TRUSTED,HTML_MESSAGE,RP_MATCHES_RCVD
+X-Spam-Check-By: apache.org
+Received: from [140.211.11.3] (HELO mail.apache.org) (140.211.11.3)
+    by apache.org (qpsmtpd/0.29) with SMTP; Wed, 28 Nov 2012 00:03:01 +0000
+Received: (qmail 94610 invoked by uid 99); 28 Nov 2012 00:02:39 -0000
+Received: from minotaur.apache.org (HELO minotaur.apache.org) (140.211.11.9)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 00:02:39 +0000
+Received: from localhost (HELO mail-la0-f47.google.com) (127.0.0.1)
+  (smtp-auth username rbaxter85, mechanism plain)
+  by minotaur.apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 00:02:39 +0000
+Received: by mail-la0-f47.google.com with SMTP id u2so10160634lag.34
+        for <dev@streams.incubator.apache.org>; Tue, 27 Nov 2012 16:02:37 -0800 (PST)
+Received: by 10.152.144.201 with SMTP id so9mr16524142lab.24.1354060957224;
+ Tue, 27 Nov 2012 16:02:37 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.114.14.167 with HTTP; Tue, 27 Nov 2012 16:02:17 -0800 (PST)
+In-Reply-To: <CANgkmLD2z42rUE1=qkEaERaYy-sPf4-iLZ6P0fBz3e-rOW5jew@mail.gmail.com>
+References: <50B5457C.2080200@apache.org> <CANgkmLD2z42rUE1=qkEaERaYy-sPf4-iLZ6P0fBz3e-rOW5jew@mail.gmail.com>
+From: Ryan Baxter <rbaxter85@apache.org>
+Date: Tue, 27 Nov 2012 19:02:17 -0500
+Message-ID: <CAB56zCVgn_knD-DjbqzGiqt9=oh_RAdceBpUUX7uQyJSn=DAYw@mail.gmail.com>
+Subject: Re: commit announcements
+To: dev@streams.incubator.apache.org, Craig McClanahan <craigmcc@gmail.com>
+Content-Type: multipart/alternative; boundary=e89a8f22c6c15c106f04cf82e244
+X-Virus-Checked: Checked by ClamAV on apache.org
+
+--e89a8f22c6c15c106f04cf82e244
+Content-Type: text/plain; charset=ISO-8859-1
+
+A bunch just came through.
+
+
+On Tue, Nov 27, 2012 at 6:13 PM, Craig McClanahan <craigmcc@gmail.com>wrote:
+
+> I've subscribed as well, but haven't seen any commits email yet.
+>
+> In other news, at least I saw this post to the dev list :-).
+>
+> Craig
+>
+>
+> On Tue, Nov 27, 2012 at 2:58 PM, Andrew Hart <ahart@apache.org> wrote:
+>
+> > Hello world!
+> >
+> > I've made a few commits today in the process of getting the scaffolding
+> > set up for the website, but have yet to see any notifications from
+> > commits@streams.incubator.**apache.org<
+> commits@streams.incubator.apache.org>.
+> > Anyone else subscribed and receiving commit notifications?
+> >
+> > -Andrew
+> >
+>
+
+--e89a8f22c6c15c106f04cf82e244--
+
+From dev-return-5-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org  Wed Nov 28 00:04:28 2012
+Return-Path: <dev-return-5-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org>
+X-Original-To: apmail-streams-dev-archive@minotaur.apache.org
+Delivered-To: apmail-streams-dev-archive@minotaur.apache.org
+Received: from mail.apache.org (hermes.apache.org [140.211.11.3])
+	by minotaur.apache.org (Postfix) with SMTP id 1CD4AE22F
+	for <apmail-streams-dev-archive@minotaur.apache.org>; Wed, 28 Nov 2012 00:04:28 +0000 (UTC)
+Received: (qmail 99136 invoked by uid 500); 28 Nov 2012 00:04:28 -0000
+Delivered-To: apmail-streams-dev-archive@streams.apache.org
+Received: (qmail 99119 invoked by uid 500); 28 Nov 2012 00:04:28 -0000
+Mailing-List: contact dev-help@streams.incubator.apache.org; run by ezmlm
+Precedence: bulk
+List-Help: <mailto:dev-help@streams.incubator.apache.org>
+List-Unsubscribe: <mailto:dev-unsubscribe@streams.incubator.apache.org>
+List-Post: <mailto:dev@streams.incubator.apache.org>
+List-Id: <dev.streams.incubator.apache.org>
+Reply-To: dev@streams.incubator.apache.org
+Delivered-To: mailing list dev@streams.incubator.apache.org
+Received: (qmail 99111 invoked by uid 99); 28 Nov 2012 00:04:28 -0000
+Received: from nike.apache.org (HELO nike.apache.org) (192.87.106.230)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 00:04:28 +0000
+X-ASF-Spam-Status: No, hits=-2.3 required=5.0
+	tests=RCVD_IN_DNSWL_MED,SPF_PASS
+X-Spam-Check-By: apache.org
+Received-SPF: pass (nike.apache.org: local policy)
+Received: from [198.49.146.77] (HELO smtpksrv1.mitre.org) (198.49.146.77)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 00:04:18 +0000
+Received: from smtpksrv1.mitre.org (localhost.localdomain [127.0.0.1])
+	by localhost (Postfix) with SMTP id 4C1B01F0431;
+	Tue, 27 Nov 2012 19:03:58 -0500 (EST)
+Received: from IMCCAS01.MITRE.ORG (imccas01.mitre.org [129.83.29.78])
+	by smtpksrv1.mitre.org (Postfix) with ESMTP id 210911F0430;
+	Tue, 27 Nov 2012 19:03:58 -0500 (EST)
+Received: from IMCMBX01.MITRE.ORG ([169.254.1.132]) by IMCCAS01.MITRE.ORG
+ ([129.83.29.68]) with mapi id 14.02.0318.004; Tue, 27 Nov 2012 19:03:57 -0500
+From: "Franklin, Matthew B." <mfranklin@mitre.org>
+To: "dev@streams.incubator.apache.org" <dev@streams.incubator.apache.org>,
+	Craig McClanahan <craigmcc@gmail.com>
+Subject: RE: commit announcements
+Thread-Topic: commit announcements
+Thread-Index: AQHNzPH7E8fqxrOWJkWEWA1wK6eIapf+o3CAgAANv4D//6yHgA==
+Date: Wed, 28 Nov 2012 00:03:56 +0000
+Message-ID: <2E45169E9A237B4DA78078A68962F9EF06C7528F@IMCMBX01.MITRE.ORG>
+References: <50B5457C.2080200@apache.org>
+ <CANgkmLD2z42rUE1=qkEaERaYy-sPf4-iLZ6P0fBz3e-rOW5jew@mail.gmail.com>
+ <CAB56zCVgn_knD-DjbqzGiqt9=oh_RAdceBpUUX7uQyJSn=DAYw@mail.gmail.com>
+In-Reply-To: <CAB56zCVgn_knD-DjbqzGiqt9=oh_RAdceBpUUX7uQyJSn=DAYw@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [129.83.31.51]
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Virus-Checked: Checked by ClamAV on apache.org
+
+>-----Original Message-----
+>From: Ryan Baxter [mailto:rbaxter85@apache.org]
+>Sent: Tuesday, November 27, 2012 7:02 PM
+>To: dev@streams.incubator.apache.org; Craig McClanahan
+>Subject: Re: commit announcements
+>
+>A bunch just came through.
+
+I moderated them through; but have an e-mail in to get it fixed
+
+>
+>
+>On Tue, Nov 27, 2012 at 6:13 PM, Craig McClanahan
+><craigmcc@gmail.com>wrote:
+>
+>> I've subscribed as well, but haven't seen any commits email yet.
+>>
+>> In other news, at least I saw this post to the dev list :-).
+>>
+>> Craig
+>>
+>>
+>> On Tue, Nov 27, 2012 at 2:58 PM, Andrew Hart <ahart@apache.org> wrote:
+>>
+>> > Hello world!
+>> >
+>> > I've made a few commits today in the process of getting the scaffoldin=
+g
+>> > set up for the website, but have yet to see any notifications from
+>> > commits@streams.incubator.**apache.org<
+>> commits@streams.incubator.apache.org>.
+>> > Anyone else subscribed and receiving commit notifications?
+>> >
+>> > -Andrew
+>> >
+>>
+
+From dev-return-6-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org  Wed Nov 28 04:02:21 2012
+Return-Path: <dev-return-6-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org>
+X-Original-To: apmail-streams-dev-archive@minotaur.apache.org
+Delivered-To: apmail-streams-dev-archive@minotaur.apache.org
+Received: from mail.apache.org (hermes.apache.org [140.211.11.3])
+	by minotaur.apache.org (Postfix) with SMTP id 23FFEEC50
+	for <apmail-streams-dev-archive@minotaur.apache.org>; Wed, 28 Nov 2012 04:02:21 +0000 (UTC)
+Received: (qmail 46771 invoked by uid 500); 28 Nov 2012 04:02:21 -0000
+Delivered-To: apmail-streams-dev-archive@streams.apache.org
+Received: (qmail 46747 invoked by uid 500); 28 Nov 2012 04:02:20 -0000
+Mailing-List: contact dev-help@streams.incubator.apache.org; run by ezmlm
+Precedence: bulk
+List-Help: <mailto:dev-help@streams.incubator.apache.org>
+List-Unsubscribe: <mailto:dev-unsubscribe@streams.incubator.apache.org>
+List-Post: <mailto:dev@streams.incubator.apache.org>
+List-Id: <dev.streams.incubator.apache.org>
+Reply-To: dev@streams.incubator.apache.org
+Delivered-To: mailing list dev@streams.incubator.apache.org
+Received: (qmail 46721 invoked by uid 99); 28 Nov 2012 04:02:19 -0000
+Received: from athena.apache.org (HELO athena.apache.org) (140.211.11.136)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 04:02:19 +0000
+X-ASF-Spam-Status: No, hits=3.6 required=5.0
+	tests=FSL_HELO_NON_FQDN_1,HELO_LOCALHOST
+X-Spam-Check-By: apache.org
+Received: from [140.211.11.3] (HELO mail.apache.org) (140.211.11.3)
+    by apache.org (qpsmtpd/0.29) with SMTP; Wed, 28 Nov 2012 04:02:19 +0000
+Received: (qmail 46229 invoked by uid 99); 28 Nov 2012 04:01:58 -0000
+Received: from minotaur.apache.org (HELO minotaur.apache.org) (140.211.11.9)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 04:01:58 +0000
+Received: from localhost (HELO [10.0.4.15]) (127.0.0.1)
+  (smtp-auth username ahart, mechanism plain)
+  by minotaur.apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 04:01:58 +0000
+Message-ID: <50B58CD8.9020001@apache.org>
+Date: Tue, 27 Nov 2012 20:02:32 -0800
+From: Andrew Hart <ahart@apache.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20120430 Thunderbird/12.0.1
+MIME-Version: 1.0
+To: dev@streams.incubator.apache.org
+Subject: svnpubsub url
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Checked: Checked by ClamAV on apache.org
+
+Hi Matt,
+
+I made a bit of progress today in setting up the basic scaffolding for 
+the streams site. I've set things up following the model used on other 
+projects, with a "branches" and "trunk" directory under the main "site" 
+directory. If you visit the site now [1], you'll see what amounts to a 
+directory listing of the changes I've made, rather than the rendered 
+site. This is probably just a case of the svnpubsub url either not 
+having been set, or set incorrectly.
+
+Looking at INFRA-5542 [2], the issue is marked as "closed" even though 
+the 5th subtask (which pertains to svnpubsub for the site) is marked as 
+"waiting for infra". I'm not sure how to interpret this.
+
+The complete URL for svnpubsub should probably be:
+
+https://svn.apache.org/repos/asf/incubator/streams/site/trunk
+
+... as that is where the compliant directory structure currently exists. 
+If you'd like, I can add a comment to INFRA-5547 [3] mentioning this. I 
+just wasn't sure what to do given the conflicting "status" indicators on 
+the parent issue.
+
+Best,
+
+Andrew.
+
+[1] http://incubator.apache.org/streams/
+[2] https://issues.apache.org/jira/browse/INFRA-5542
+[3] https://issues.apache.org/jira/browse/INFRA-5547
+
+
+
+From dev-return-7-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org  Wed Nov 28 04:18:26 2012
+Return-Path: <dev-return-7-apmail-streams-dev-archive=streams.apache.org@streams.incubator.apache.org>
+X-Original-To: apmail-streams-dev-archive@minotaur.apache.org
+Delivered-To: apmail-streams-dev-archive@minotaur.apache.org
+Received: from mail.apache.org (hermes.apache.org [140.211.11.3])
+	by minotaur.apache.org (Postfix) with SMTP id 70A6DECB1
+	for <apmail-streams-dev-archive@minotaur.apache.org>; Wed, 28 Nov 2012 04:18:26 +0000 (UTC)
+Received: (qmail 84168 invoked by uid 500); 28 Nov 2012 04:18:25 -0000
+Delivered-To: apmail-streams-dev-archive@streams.apache.org
+Received: (qmail 84123 invoked by uid 500); 28 Nov 2012 04:18:24 -0000
+Mailing-List: contact dev-help@streams.incubator.apache.org; run by ezmlm
+Precedence: bulk
+List-Help: <mailto:dev-help@streams.incubator.apache.org>
+List-Unsubscribe: <mailto:dev-unsubscribe@streams.incubator.apache.org>
+List-Post: <mailto:dev@streams.incubator.apache.org>
+List-Id: <dev.streams.incubator.apache.org>
+Reply-To: dev@streams.incubator.apache.org
+Delivered-To: mailing list dev@streams.incubator.apache.org
+Received: (qmail 84088 invoked by uid 99); 28 Nov 2012 04:18:23 -0000
+Received: from athena.apache.org (HELO athena.apache.org) (140.211.11.136)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 04:18:23 +0000
+X-ASF-Spam-Status: No, hits=-0.7 required=5.0
+	tests=RCVD_IN_DNSWL_LOW,SPF_PASS
+X-Spam-Check-By: apache.org
+Received-SPF: pass (athena.apache.org: domain of m.ben.franklin@gmail.com designates 209.85.217.175 as permitted sender)
+Received: from [209.85.217.175] (HELO mail-lb0-f175.google.com) (209.85.217.175)
+    by apache.org (qpsmtpd/0.29) with ESMTP; Wed, 28 Nov 2012 04:18:16 +0000
+Received: by mail-lb0-f175.google.com with SMTP id gg13so7515116lbb.34
+        for <dev@streams.incubator.apache.org>; Tue, 27 Nov 2012 20:17:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=references:from:mime-version:in-reply-to:date:message-id:subject:to
+         :content-type:content-transfer-encoding;
+        bh=NNNAmX7ljUYo1N7YkSL+YMaPTWeU/ZHeWLUEAGRDrGM=;
+        b=RjEseSoY0PmWY9S5KPVaDTBF7sIf4Bh5v3JpN76vFbq7GJso2DGiP08HVXC1P4kQwW
+         c0fJKxYpDKK15XzvRmPNlT4bLquWAN9ZShQvI/oeGIuPbyO89tYq2VPPNX4Igyk2ntiI
+         itiKERGn7VWpJljuFEwJBmi+7fnqlXKxopYQDU9TpZLzAwUETcSzuqMLWWoM1XU1Mm4I
+         rb4uzP3IgQ7NwpHcY+Sl8SF0wEVAd2ETWePvX9j8J0YzbcW/9TEbEVvQkvLrGsR6dNh5
+         /lZcPOaOLqgwRKdxG3yoHE2E8U++dxceYJmBZ0Fw70esrf/50ZBd9m5BhHSZaaepbEhE
+         rDmQ==
+Received: by 10.152.106.237 with SMTP id gx13mr16458136lab.46.1354076274184;
+ Tue, 27 Nov 2012 20:17:54 -0800 (PST)
+References: <50B58CD8.9020001@apache.org>
+From: Matt Franklin <m.ben.franklin@gmail.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <50B58CD8.9020001@apache.org>
+Date: Tue, 27 Nov 2012 23:17:53 -0500
+Message-ID: <584102656104184817@unknownmsgid>
+Subject: Re: svnpubsub url
+To: "dev@streams.incubator.apache.org" <dev@streams.incubator.apache.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Virus-Checked: Checked by ClamAV on apache.org
+
+On Nov 27, 2012, at 23:02, Andrew Hart <ahart@apache.org> wrote:
+
+> Hi Matt,
+>
+> I made a bit of progress today in setting up the basic scaffolding for th=
+e streams site. I've set things up following the model used on other projec=
+ts, with a "branches" and "trunk" directory under the main "site" directory=
+. If you visit the site now [1], you'll see what amounts to a directory lis=
+ting of the changes I've made, rather than the rendered site. This is proba=
+bly just a case of the svnpubsub url either not having been set, or set inc=
+orrectly.
+>
+> Looking at INFRA-5542 [2], the issue is marked as "closed" even though th=
+e 5th subtask (which pertains to svnpubsub for the site) is marked as "wait=
+ing for infra". I'm not sure how to interpret this.
+>
+> The complete URL for svnpubsub should probably be:
+>
+> https://svn.apache.org/repos/asf/incubator/streams/site/trunk
+>
+> ... as that is where the compliant directory structure currently exists. =
+If you'd like, I can add a comment to INFRA-5547 [3] mentioning this. I jus=
+t wasn't sure what to do given the conflicting "status" indicators on the p=
+arent issue.
+
+Thanks for getting the ball rolling.  Feel free to comment on the
+ticket.  With different people in infra handling the various sub
+tasks, sometimes wires get crossed.
+
+>
+> Best,
+>
+> Andrew.
+>
+> [1] http://incubator.apache.org/streams/
+> [2] https://issues.apache.org/jira/browse/INFRA-5542
+> [3] https://issues.apache.org/jira/browse/INFRA-5547
+>
+>
+
