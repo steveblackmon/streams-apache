@@ -71,7 +71,7 @@ public class MboxProvider implements StreamsProvider {
 
     private final int DEFAULT_MESSAGE_SIZE = 10 * 1024;
     // number of chars oin our largest test message
-    private static final int CHARS_IN_MAX_MSG = 10000;
+    private static final int CHARS_IN_MAX_MSG = 100000;
     private static final int MORE_THAN_FILE_SIZE = 13291;
 
     boolean done = false;
